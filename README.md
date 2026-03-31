@@ -63,8 +63,5 @@ chess/
 
 ## Author
 
-Dayanandh — [GitHub](https://github.com/your-username)
+Dayanandh Saravanan — [GitHub](https://github.com/dayanandh-saravanan)
 
-## License
-
-[MIT](LICENSE)
