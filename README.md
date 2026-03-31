@@ -2,7 +2,8 @@
 
 A two-player chess game built in Java featuring a graphical interface, custom piece rendering, and sound effects.
 
-![Chess Board](images/screenshot.png)
+<img width="1000" height="785" alt="image" src="https://github.com/user-attachments/assets/1c6001c1-fa07-4d0e-8a73-c0336f191843" />
+
 
 ## Features
 
