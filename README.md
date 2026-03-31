@@ -1,51 +1,74 @@
 # ♟️ Chess
 
-A fully playable chess game built in Java, supporting two-player gameplay with complete rule enforcement.
+A two-player chess game built in Java featuring a graphical interface, custom piece rendering, and sound effects.
+
+![Chess Board](images/screenshot.png)
 
 ## Features
 
-- Two-player local multiplayer
-- Full chess rule implementation (castling, en passant, pawn promotion)
-- Check and checkmate detection
-- GUI interface 
+- Two-player local multiplayer (White vs Black)
+- Full chess rule enforcement for all pieces
+- Graphical board with custom piece images
+- Sound effects for moves and game events
+- Mouse-based click-to-move controls
 
-### Installation
+### Prerequisites
+
+- Java 17+
+
+### Run the Game
 ```bash
-git clone https://github.com/dayanandh-username/chess.git
+git clone https://github.com/your-username/chess.git
 cd chess
-javac -d out src/**/*.java
-java -cp out Main
+javac *.java
+java Chess
 ```
+
+> If you're using VS Code, just open the repo and run `Chess.java` directly.
 
 ## How to Play
 
-- Players alternate turns as White and Black
-- The game ends on checkmate or stalemate
+- Click a piece to select it, then click a square to move
+- Players alternate turns — White goes first
+- The game detects check and checkmate automatically
 
 ## Project Structure
 ```
 chess/
-├── src/
-│   ├── Main.java
-│   ├── Board.java
-│   ├── pieces/
-│   │   ├── Piece.java
-│   │   ├── King.java
-│   │   └── ...
-│   └── ...
-└── README.md
+├── images/          # Piece sprites
+├── sfx/             # Sound effect files
+├── .vscode/         # VS Code config
+├── Piece.java       # Abstract base class for all pieces
+├── Board.java       # Board state and rendering
+├── GamePanel.java   # Main game loop and display
+├── Chess.java       # Entry point
+├── King.java
+├── Queen.java
+├── Rook.java
+├── Bishop.java
+├── Knight.java
+├── Pawn.java
+├── MouseListener.java
+└── SoundEffect.java
 ```
 
 ## Tech Stack
 
-- Fully coded using Java
+- **Language:** Java
+- **UI:** Java Swing
+- **Audio:** Java Sound API
 
 ## Future Improvements
 
+- Check/checkmate highlighting
+- Move history panel
 - AI opponent
-- Move history / undo
-- Online multiplayer
+- UI Resolution scaling
 
 ## Author
 
-Dayanandh — [GitHub](https://github.com/dayanandh-saravanan)
+Dayanandh — [GitHub](https://github.com/your-username)
+
+## License
+
+[MIT](LICENSE)
