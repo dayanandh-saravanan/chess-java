@@ -2,7 +2,8 @@
 
 A two-player chess game built in Java featuring a graphical interface, custom piece rendering, and sound effects.
 
-<img width="1000" height="785" alt="image" src="https://github.com/user-attachments/assets/1c6001c1-fa07-4d0e-8a73-c0336f191843" />
+<img width="1000" height="785" alt="image" src="https://github.com/user-attachments/assets/a4671b82-7a54-4a4f-8d1d-59eeb175d876" />
+
 
 
 ## Features
@@ -18,14 +19,8 @@ A two-player chess game built in Java featuring a graphical interface, custom pi
 - Java 17+
 
 ### Run the Game
-```bash
-git clone https://github.com/your-username/chess.git
-cd chess
-javac *.java
-java Chess
-```
 
-> If you're using VS Code, just open the repo and run `Chess.java` directly.
+> using VS Code, just open the repo and run `Chess.java` directly.
 
 ## How to Play
 
